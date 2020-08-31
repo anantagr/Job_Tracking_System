@@ -13,6 +13,7 @@ def main(linkedin_job_title, linkedin_job_location, file_name, path) :
     # %%
     from selenium import webdriver
     from selenium.common.exceptions import WebDriverException
+    from selenium.common.exceptions import SessionNotCreatedException
 
     from time import sleep
     from selenium.webdriver.common.keys import Keys
@@ -56,6 +57,11 @@ def main(linkedin_job_title, linkedin_job_location, file_name, path) :
             
         except OSError:
             s1 = "Please close excel file and re-run the program"
+            result_string[0] = s1
+            # quit()
+
+        except (SessionNotCreatedException):
+            s1 = "**Error: Please check your Chrome version and download Chromedriver accordingly"
             result_string[0] = s1
             # quit()
         
