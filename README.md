@@ -3,7 +3,7 @@ This application can be used to find jobs on linkedin based on job tittle/locati
 
  ![](https://github.com/anantagr/Job_Tracking_System/blob/master/README_imgs/img.png) 
 
-[Link to article]()
+[Link to article](https://www.linkedin.com/pulse/job-tracking-system-anant-agrawal/?trackingId=kCjFZo5YT9OfSxtbndze7w%3D%3D)
 
 
 ### Step 1
